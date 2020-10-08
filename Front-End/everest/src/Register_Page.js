@@ -22,7 +22,7 @@ function RegisterPage() {
     }
 
     const fieldAuthentications = () => {
-      console.log(firstName, lastName, confirmPassword);
+      console.log(firstName, lastName, email, pwd, confirmPassword);
       const auth = firebase.auth();
 		  auth.createUserWithEmailAndPassword(email, pwd).catch(function(error) {
 			  var errorMessage = error.message;
