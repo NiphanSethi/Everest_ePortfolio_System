@@ -45,7 +45,7 @@ Next, ensure firebase-tools are installed and configured using ``` npm install f
 
 Following this, deployment can be made to firebase by running ``` firebase deploy``` in the root directory.
 
-[This](https://firebase.google.com/docs/cli) is the documention for how to made a deployment this way using the Firebase CLI.
+[This](https://firebase.google.com/docs/cli) is the documention for how to deploy this way using the Firebase CLI.
 
 
 ## Local Testing
@@ -58,5 +58,5 @@ Running ``` npm start``` in the root directory will install all dependancies and
 Running ``` npm test``` will run a suite of tests on the back-end firestore functions using firebase emulators, a valid google cloud (Firebase) service account key will need to be present in the ```/functions``` directory under the title ``` serviceAccountKey.json``` for the tests to run successfully.
 
 # Further Project Details
-Please take a look at the [wiki](https://github.com/stavyadatta/ePortfolio/wiki) for more details about architecture, deployment, features and requirements.
+Please take a look at the [wiki](https://github.com/NiphanSethi/Everest_ePortfolio_System/wiki) for more details about architecture, deployment, features and requirements.
 
