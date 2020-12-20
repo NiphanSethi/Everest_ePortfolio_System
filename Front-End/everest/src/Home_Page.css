@@ -30,7 +30,13 @@ p {
 	top: 100vh;
 	left: 0vw;
 	min-height: 68vh;
-	margin-bottom: 38px;
+	margin-bottom: 32vh;
+}
+
+@media screen and (max-width: 1500px) {
+	.homepage_second_segment {
+		margin-bottom: 12vh;
+	}
 }
 
 .homepage_third_segment {
@@ -309,7 +315,7 @@ p {
 	.cards_and_btn {
 		display: flex;
 		flex-direction: column;
-		row-gap: 168px;
+		row-gap: 185px;
 		align-items: center;
 	}
 }
